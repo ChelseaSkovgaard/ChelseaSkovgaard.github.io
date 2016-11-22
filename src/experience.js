@@ -5,7 +5,11 @@ class Experience extends Component {
     return (
       <div className="experience">
         <h1 id="about"> ABOUT</h1>
-        <div id="bio"> My name is Chelsea Skovgaard. As a front-end web developer, I love to make fun, animated, and user-centered applications and websites.  Experimenting with new technologies and writing clean and reusable code drives my love of web development.
+        <div id="bio"> After working in the public sector for some time,
+        I decided to turn my attentions to front-end web development in order to
+        learn the technologies to make positive and tangible changes in my community.
+        The challenge, collaboration, and impactful nature of technology drives my
+        passion for web development.
         </div>
         <div className="experience-card one">
           <h2> SKILLS </h2>

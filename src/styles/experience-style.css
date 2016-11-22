@@ -13,9 +13,7 @@
   margin-top: 20px;
 }
 
-.one {
-  margin-top: 100px;
-}
+
 
 .experience h1 {
   background-color: #FEDB01;
@@ -69,9 +67,10 @@
   color: white;
   font-family: sans-serif;
   font-size: 20px;
-  margin-left: 20px;
-  background-color: #4A4A4A;
-  opacity: 10%;
+  margin: 30px;
+  line-height: 1.2;
+  padding: 10px;
+  background-color: hsla(0, 0%, 100%, .1);
 }
 
 .edu {
