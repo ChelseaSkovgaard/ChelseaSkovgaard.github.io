@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './reset.css';
-import './index.css';
+
+import './styles/index.css';
+import './styles/social-icons.css';
+import './styles/experience-style.css';
+import './styles/project-style.css';
+import './styles/reset.css';
 
 ReactDOM.render(
   <App />,

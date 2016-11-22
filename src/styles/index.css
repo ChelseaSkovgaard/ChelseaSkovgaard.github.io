@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
+.intro {
+background-image: url('./wood-background.jpg');
+color: #FEDB01;
+display: inline-block;
+height: 100vh;
+width: 35%;
+vertical-align: top;
+position: fixed;
+left: 0;
+top: 0;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#photo {
+  width: 400px;
+  height: 250px;
+  background-image: url('../images/desk-papers.jpg');
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 25px;
+  position: relative;
+  z-index: 9;
+}
+
+#descriptors {
+  margin: 20px 20px 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.summary-intro {
+  margin: 20px 20px 40px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+}
+
+
+.action-btn {
+  background-color: transparent;
+  border: 2px solid #FEDB01;
+  border-radius: 10px;
+  color: #FEDB01;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.action-btn:hover, :focus {
+    color: black;
+    outline: 0;
+    box-shadow: 0 0 40px 40px #FEDB01 inset;
+    font-weight: bold;
+}
+
+.cards{
+background-color: #191A1F;
+color: white;
+width: 65%;
+display: inline-block;
+height: 100vh;
+position: absolute;
+top: 0;
+right: 0;
+}

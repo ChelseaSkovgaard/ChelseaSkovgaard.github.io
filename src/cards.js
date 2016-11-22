@@ -6,7 +6,8 @@ class Cards extends Component {
   render() {
     return (
       <div className="cards">
-      <Experience />
+        
+        <Experience />
         <Work />
       </div>
     )
