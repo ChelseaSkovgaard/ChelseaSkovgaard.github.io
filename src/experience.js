@@ -4,13 +4,8 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience">
-        <h1 id="about"> ABOUT</h1>
-        <div id="bio"> After working in the public sector for some time,
-        I decided to turn my attentions to front-end web development in order to
-        learn the technologies to make positive and tangible changes in my community.
-        The challenge, collaboration, and impactful nature of technology drives my
-        passion for web development.
-        </div>
+        <h1 id="about">EXPERIENCE</h1>
+
         <div className="experience-card one">
           <h2> SKILLS </h2>
           <ul>
@@ -18,7 +13,8 @@ class Experience extends Component {
             <li> CSS </li>
             <li> SASS </li>
             <li>JAVASCRIPT</li>
-            <li> REACT </li>
+            <li> REACT.JS</li>
+            <li> EMBER.JS</li>
             <li> JQUERY </li>
             <li> MOCHA </li>
             <li> ENZYME </li>
@@ -40,7 +36,7 @@ class Experience extends Component {
         <div className="experience-card">
           <h2> EDUCATION </h2>
           <article className="edu">
-            <h3> Turing School of Software and Design </h3>
+            <h3>Turing School of Software and Design</h3>
             <h4> Front-End Engineering </h4>
             <h4>Intensive seven month program learning UX/UI principles, strong foundations in HTML, CSS, JavaScript, and the tools to build desktop, mobile and web apps</h4>
           </article>

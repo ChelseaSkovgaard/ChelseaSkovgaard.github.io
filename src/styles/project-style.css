@@ -1,9 +1,8 @@
 .project {
-  margin-right: 10%;
-  background-color: white;
-  height: 200px;
-  margin-bottom: 20px;
+  height: auto;
+  margin-bottom:30px;
   color: black;
+  display: inline-block;
 }
 
 .work h1 {
@@ -15,7 +14,7 @@
   height: 50px;
   margin-left: 70%;
   margin-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 5%;
   width: 25%;
 }
@@ -24,5 +23,84 @@
   height: auto;
   background-color: #191A1F;
   color: white;
-  padding: 20px 0;
+  padding: 20px 0 0;
+}
+
+#project-one, #project-two, #project-three, #project-four{
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#project-four{
+  background-image: url(../images/to-do-box.png);
+  height: 300px;
+}
+
+#project-three{
+  background-image: url(../images/shoot-the-breeze.png);
+  height: 200px;
+}
+
+#project-two{
+  background-image: url(../images/betsketball.png);
+  height: 200px;
+}
+
+#project-one{
+  background-image: url(../images/CSS-Secrets.png);
+  height: 300px;
+}
+
+.project-info {
+  display: inline-block;
+  font-family: sans-serif;
+  color: white;
+  height: auto;
+  margin-left: 30px;
+  vertical-align: top;
+  width: 300px;
+  line-height: 1.2;
+}
+
+.project-info h2 {
+  color: #FEDB01;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.project-info p {
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.project-info button {
+  background-color: transparent;
+  border: 2px solid #FEDB01;
+  color: #FEDB01;
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+.project-info button:hover, :focus {
+  background-color: #FEDB01;
+  color: #191A1F;
+}
+
+.project-btn-one {
+  margin-right: 20px;
+}
+
+form {
+  display: inline-block;
 }

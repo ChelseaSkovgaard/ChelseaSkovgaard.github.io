@@ -9,21 +9,21 @@ class Summary extends Component {
           <h2> COLLABORATOR.</h2>
           <h2> CREATOR.</h2>
         </div>
-        <div className="summary-intro"> My name is Chelsea Skovgaard.<br/>
-        I?m a front-end web developer, <br/>
-        who loves to experiment with new technologies,
-        collaborate with a wide-range of individuals and groups,<br/>
-        and create user-experience focused applications.
-        </div>
+
        <div className='social-icon'>
           <a href="https://twitter.com/ChelseaSkov">
             <span id="twitter"></span>
           </a>
-          <div id="github"></div>
-          <div id="linkedin"></div>
+          <a href="https://github.com/ChelseaSkovgaard">
+            <span id="github"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/chelseaskovgaard">
+            <span id="linkedin"></span>
+          </a>
         </div>
-        <button className="action-btn"> Get in Touch </button>
-        <button className="action-btn"> Download my Resume </button>
+        <form action="mailto:chelseaskovgaard@gmail/com" method="get">
+          <button className="action-btn"> Get in Touch </button>
+        </form>
       </div>
     )
   }
