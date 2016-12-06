@@ -6,6 +6,21 @@ class Work extends Component {
       <div className="work">
         <h1> PROJECTS </h1>
         <div className="project">
+          <div id="project-five"></div>
+          <div className="project-info">
+            <h2>WEATHER DUX</h2>
+            <p>Application enables to search cities for current, hourly, and weekly weather. Three cities can be pinned and deleted for reference.</p>
+            <p>HTML SASS REACT REDUX</p>
+            <p>Group Project </p>
+            <form action="https://hilarylewis92.github.io/weather-forecast/" method="get">
+            <button className="project-btn-one"> View Project </button>
+            </form>
+            <form action="https://github.com/ChelseaSkovgaard/2DoBox-Pivot" method="get">
+            <button> Source Code </button>
+            </form>
+          </div>
+        </div>
+        <div className="project">
           <div id="project-two"></div>
           <div className="project-info">
             <h2> BETSKETBALL</h2>

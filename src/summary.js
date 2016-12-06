@@ -9,21 +9,25 @@ class Summary extends Component {
           <h2> COLLABORATOR.</h2>
           <h2> CREATOR.</h2>
         </div>
-
-       <div className='social-icon'>
-          <a href="https://twitter.com/ChelseaSkov">
-            <span id="twitter"></span>
-          </a>
-          <a href="https://github.com/ChelseaSkovgaard">
-            <span id="github"></span>
-          </a>
-          <a href="https://www.linkedin.com/in/chelseaskovgaard">
-            <span id="linkedin"></span>
-          </a>
+        <div className="interact-buttons">
+         <div className='social-icon'>
+            <a href="https://twitter.com/ChelseaSkov">
+              <span id="twitter"></span>
+            </a>
+            <a href="https://github.com/ChelseaSkovgaard">
+              <span id="github"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/chelseaskovgaard">
+              <span id="linkedin"></span>
+            </a>
+          </div>
+          <form action="mailto:chelseaskovgaard@gmail/com" method="get">
+            <button className="action-btn"> Get in Touch </button>
+          </form>
+          <form action="mailto:chelseaskovgaard@gmail/com" method="get">
+            <button className="action-btn"> Request Resume </button>
+          </form>
         </div>
-        <form action="mailto:chelseaskovgaard@gmail/com" method="get">
-          <button className="action-btn"> Get in Touch </button>
-        </form>
       </div>
     )
   }
