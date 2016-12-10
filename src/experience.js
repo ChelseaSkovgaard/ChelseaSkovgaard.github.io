@@ -26,6 +26,7 @@ class Experience extends Component {
           <h2> EXPERIENCE </h2>
           <div>
             <h3 className="exp"> Turing School of Software and Design</h3>
+            <p>Built a wide range of web applications utilizing cutting edge front-end development technologies and frameworks</p>
             <p>Started a student group to explore design principles, data visualization, and CSS/Sass best practices</p>
             <h3> Program and Communications Coordinator</h3>
             <h3 className="exp"> Community Health Association of Mountain/Plains States 2012-2016</h3>
