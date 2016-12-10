@@ -33,7 +33,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   width: 400px;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-bottom: 10px;
 }
 
@@ -90,7 +90,6 @@
   background-color: transparent;
   border: 2px solid #FEDB01;
   color: #FEDB01;
-  border-radius: 5px;
   text-align: center;
   padding: 4px;
   font-size: 14px;

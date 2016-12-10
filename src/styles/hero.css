@@ -5,14 +5,13 @@
   color: white;
   font-family: sans-serif;
   font-size: 22px;
-  margin: 225px 70px;
+  margin: 225px 75px;
   line-height: 1.2;
   padding: 10px;
   background-color: hsla(0, 0%, 100%, .7);
   z-index: 50;
   position: absolute;
   color: black;
-  border-radius: 10px;
 }
 
 
@@ -21,10 +20,9 @@
   background-size: cover;
   width: 500px;
   height: 300px;
-  margin-left: 20px;
+  margin-left: 25px;
   z-index: 5;
   position: absolute;
-  border-radius: 5px;
 }
 
 .hero h1 {
