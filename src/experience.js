@@ -16,6 +16,8 @@ class Experience extends Component {
             <li> REACT.JS</li>
             <li> EMBER.JS</li>
             <li> JQUERY </li>
+            <li> NODE.JS</li>
+            <li> EXPRESS</li>
             <li> MOCHA </li>
             <li> ENZYME </li>
             <li> GIT </li>
