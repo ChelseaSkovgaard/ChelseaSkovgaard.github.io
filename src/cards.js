@@ -8,8 +8,8 @@ class Cards extends Component {
     return (
       <div className="cards">
         <Hero />
-        <Experience />
         <Work />
+        <Experience />
       </div>
     )
   }

@@ -4,7 +4,7 @@
   width: 75%;
   color: white;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   margin: 175px 150px;
   line-height: 1.2;
   padding: 10px;
@@ -63,7 +63,7 @@
     color: white;
   }
   #portrait {
-    background-image: url(../images/person.jpg);
+    background-image: url(../images/laptop-coffee-2.jpg);
     background-size: cover;
     width: 400px;
     height: 200px;
