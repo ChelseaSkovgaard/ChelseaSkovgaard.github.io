@@ -50,11 +50,11 @@ class Work extends Component {
         <div className="project">
           <div id="project-three"></div>
           <div className="project-info">
-            <h2>2DO BOX </h2>
-            <p>Application enables users to save, filter, and rate to do tasks</p>
+            <h2>SHOOT THE BREEZE </h2>
+            <p>Application enables users to send, filter, and search messages</p>
             <p className="build-section">
               <span className="build-heading">Built With: </span>
-              <span> Html, Sass, Javascript </span>
+              <span> Html, Sass, React.JS, Firebase </span>
             </p>
             <form action="https://github.com/ChelseaSkovgaard/2DoBox-Pivot" method="get">
             <button> Source Code </button>
