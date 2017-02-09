@@ -45,18 +45,24 @@
 
 #project-one{
   background-image: url(../images/flix-faves-standard.png);
-  height: 400px;
+  height: 350px;
 }
 
 #project-two{
   background-image: url(../images/weather-dux-standard.png);
-  height: 400px;
+  height: 350px;
 }
 
 #project-three{
   background-image: url(../images/shoot-breeze-standard.png);
-  height: 400px;
+  height: 350px;
 }
+
+#project-four{
+  background-image: url(../images/tinify-standard.png);
+  height: 350px;
+}
+
 /*
 #project-four{
   background-image: url(../images/ToDoBox-2.png);
@@ -144,6 +150,13 @@ form {
     margin-top: 30px;
     font-size: 24px;
     height: 40px;
+  }
+  .work {
+    padding-top: 50px;
+  }
+
+  #project-one, #project-two, #project-three, #project-four{
+    height: 200px;
   }
 }
 

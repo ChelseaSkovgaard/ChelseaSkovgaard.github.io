@@ -46,6 +46,26 @@ class Work extends Component {
           </div>
         </div>
 
+        <div className="project">
+          <a href="https://tinify.herokuapp.com/">
+            <div id="project-four"></div>
+          </a>
+            <div className="project-info">
+            <h2>TINIFY</h2>
+            <p>A URL shortener that creates a shortened link that users can save in folders or share.</p>
+            <p className="build-section">
+              <span className="build-heading">Built With: </span>
+              <span> Html, CSS, React.JS, Node.JS, Express, PosgreSQL</span>
+            </p>
+            <form action="https://tinify.herokuapp.com/" method="get">
+            <button className="project-btn-one"> View Project </button>
+            </form>
+            <form action="https://github.com/ChelseaSkovgaard/Tinyify" method="get">
+            <button> Source Code </button>
+            </form>
+          </div>
+        </div>
+
 
         <div className="project">
           <div id="project-three"></div>
