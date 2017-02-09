@@ -25,35 +25,41 @@
   height: auto;
   background-color: #191A1F;
   color: white;
-  padding: 20px 0 0;
+  padding-top: 450px;
 }
 
+.build-heading {
+  color: #FEDB01;
+}
+
+.build-section {
+  margin-top: 10px;
+}
 #project-one, #project-two, #project-three, #project-four, #project-five, #project-six{
-  display: inline-block;
+  display: block;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 400px;
-  margin-left: 25px;
-  margin-bottom: 10px;
-}
-
-#project-four{
-  background-image: url(../images/ToDoBox-2.png);
-  height: 250px;
-}
-
-#project-three{
-  background-image: url(../images/shoot-the-breeze.png);
-  height: 250px;
-}
-
-#project-two{
-  background-image: url(../images/betsketball.png);
-  height: 250px;
+  margin-left: 100px;
+  margin-bottom: 30px;
 }
 
 #project-one{
-  background-image: url(../images/CSS-Secrets.png);
+  background-image: url(../images/flix-faves-standard.png);
+  height: 400px;
+}
+
+#project-two{
+  background-image: url(../images/weather-dux-standard.png);
+  height: 400px;
+}
+
+#project-three{
+  background-image: url(../images/shoot-breeze-standard.png);
+  height: 400px;
+}
+/*
+#project-four{
+  background-image: url(../images/ToDoBox-2.png);
   height: 250px;
 }
 
@@ -65,17 +71,18 @@
 #project-six{
   background-image: url(../images/FlixFavesPic.png);
   height: 250px;
-}
+}*/
 
 .project-info {
   display: inline-block;
   font-family: sans-serif;
   color: white;
   height: auto;
-  margin-left: 30px;
+  margin-left: 100px;
   vertical-align: top;
-  width: 350px;
+  width: 700px;
   line-height: 1.2;
+  margin-bottom: 30px;
 }
 
 .project-info h2 {

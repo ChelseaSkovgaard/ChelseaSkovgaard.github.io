@@ -7,14 +7,16 @@ class Work extends Component {
         <h1> PROJECTS </h1>
         <div className="project">
           <a href="https://flixfavs.firebaseapp.com/">
-            <div id="project-six"></div>
+            <div id="project-one"></div>
           </a>
+
           <div className="project-info">
             <h2>FLIX FAVES</h2>
             <p>Application enables the user to create an account  to save the movies they want to watch. Users can search movies as well as browse upcoming and current movies. When viewing their list, users are alerted when movies they have saved are current or upcoming.</p>
-            <p>HTML SASS REACT FIREBASE</p>
-            <p>MOVIE DATABASE API</p>
-            <p>Individual Project </p>
+            <p className="build-section">
+              <span className="build-heading">Built With: </span>
+              <span> Html, Sass, React.JS, Firebase, Movie Database API </span>
+            </p>
             <form action="https://flixfavs.firebaseapp.com/" method="get">
             <button className="project-btn-one"> View Project </button>
             </form>
@@ -23,16 +25,18 @@ class Work extends Component {
             </form>
           </div>
         </div>
+
         <div className="project">
           <a href="https://hilarylewis92.github.io/weather-forecast/">
-            <div id="project-five"></div>
+            <div id="project-two"></div>
           </a>
             <div className="project-info">
             <h2>WEATHER DUX</h2>
             <p>Application enables to search cities for current, hourly, and weekly weather. Three cities can be pinned and deleted for reference.</p>
-            <p>HTML CSS REACT REDUX</p>
-            <p>GEOLOCATION WEATHER UNDERGROUND API</p>
-            <p>Group Project </p>
+            <p className="build-section">
+              <span className="build-heading">Built With: </span>
+              <span> Html, CSS, React.JS, Redux, Geolocation API, Weather Underground API </span>
+            </p>
             <form action="https://hilarylewis92.github.io/weather-forecast/" method="get">
             <button className="project-btn-one"> View Project </button>
             </form>
@@ -44,18 +48,20 @@ class Work extends Component {
 
 
         <div className="project">
-          <div id="project-four"></div>
+          <div id="project-three"></div>
           <div className="project-info">
-            <h2>2DO BOX </h2>
-            <p>Application enables users to save, filter, and rate to do tasks</p>
-            <p>HTML SASS JAVASCRIPT</p>
-            <p>Pair Project </p>
+            <h2>SHOOT THE BREEZE </h2>
+            <p>Application enables users to send, filter, and search messages</p>
+            <p className="build-section">
+              <span className="build-heading">Built With: </span>
+              <span> Html, Sass, React.JS, Firebase </span>
+            </p>
             <form action="https://github.com/ChelseaSkovgaard/2DoBox-Pivot" method="get">
             <button> Source Code </button>
             </form>
           </div>
         </div>
-  
+
       </div>
     )
   }
