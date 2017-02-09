@@ -127,23 +127,6 @@ form {
   display: inline-block;
 }
 
-@media only screen and (max-width: 1160px) {
-  .project-info {
-    width: 300px;
-  }
-}
-
-@media only screen and (max-width: 1080px) {
-  .project-info {
-    width: 500px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .project-info {
-    width: 350px;
-  }
-}
 
 @media only screen and (max-width: 650px) {
   .work h1 {
